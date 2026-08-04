@@ -1,0 +1,13 @@
+# Core dependencies
+torch>=1.10
+torchvision>=0.11
+numpy>=1.21
+opencv-python>=4.5
+Pillow>=8.3
+scipy>=1.7
+einops>=0.4
+scikit-image>=0.18
+lpips>=0.1.4
+
+# Optional (FLOPs / parameter estimation)
+# ptflops>=0.6.9

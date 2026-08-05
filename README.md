@@ -7,7 +7,8 @@ Official implementation of the paper:
 > Jie Xu, Junyu Fan, Chuanlin Liao, Yi Lin
 >
 > ACM Multimedia 2026 (MM '26)
-
+>
+> Paper: [`paper/SATNet_Xujie_MM2026.pdf`](paper/SATNet_Xujie_MM2026.pdf)
 
 SATNet is a U-shaped Transformer network for underwater image enhancement.
 Unlike pixel-wise reconstruction methods, it explicitly models structural

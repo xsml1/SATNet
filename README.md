@@ -18,8 +18,7 @@ throughout the enhancement process.
 
 ## News
 
-- **2026-08-04**: Initial release. Code, training/testing scripts and ablation
-  models are provided.
+- **2026-08-04**: Initial release. Code, training/testing scripts are provided.
 
 ## Network Architecture
 
@@ -125,7 +124,7 @@ Arrange each dataset as paired folders with matching file names:
 datasets/
 ├── UIEB/                  # Test-U90
 │   ├── train/
-│   │   ├── input/         # degraded underwater images (800 pairs)
+│   │   ├── input/         # degraded underwater images (random 800 pairs)
 │   │   └── gt/            # reference images
 │   └── test/
 │       ├── input/         # remaining 90 pairs
@@ -142,7 +141,7 @@ datasets/
     └── test/input/
 ```
 
-During training, images are randomly cropped to patches (default 256 × 256)
+During training, images are resized (default 256 × 256)
 with flip augmentation, and a Sobel/Canny edge map is computed from each GT
 image to supervise the edge prediction branch.
 
